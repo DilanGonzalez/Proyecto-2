@@ -1,0 +1,36 @@
+body {
+    background-color:dimgrey
+  }
+  
+  .container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color:black;
+  }
+  
+  .Botones {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height: 1vh;
+    
+  }
+  
+  span {
+    font-size: 10em;
+  }
+  
+  button {
+    border-radius: 20px;    
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color:goldenrod;
+    text-transform: uppercase;
+  }
+  
